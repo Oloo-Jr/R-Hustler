@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "HustlerApp",
+    "name": "R-Hustler",
     "slug": "HustlerApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {"apiKey": "AIzaSyB7EFvFzgS6PDOkhHshLII90oQ6L2rsELo"}
+      },
+      "package": "com.valentinejerry.HustlerApp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77f04c30-2437-4876-a099-3b114a2c84d4"
+      }
     }
   }
 }
